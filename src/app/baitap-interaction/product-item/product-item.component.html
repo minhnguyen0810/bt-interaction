@@ -1,0 +1,9 @@
+<div class="card">
+    <img class="card-img-top" [src]="dienThoai.hinhAnh" alt="">
+    <div class="card-body">
+        <h5 class="card-title">{{dienThoai.tenDT}}</h5>
+        <p class="card-text">{{dienThoai.mota}}</p>
+        <button (click)="hienThi(dienThoai)" data-toggle="modal" data-target="#myModal">Details</button>
+        <button>Hide Des</button>
+    </div>
+</div>
